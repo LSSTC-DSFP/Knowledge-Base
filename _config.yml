@@ -3,9 +3,9 @@
 # Site settings
 title: Knowledge Base               # used for the html title of every page
 desc: >
-  LSSTC DSFP - Session 1 Hack Day 
-  Work in Progress
-
+  LSSTC DSFP - Session 1 Hack Day - Knowledge Base
+  
+  This site is a work in progress
 url: http://lsstc-dsfp.github.io/Knowledge-Base/      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
@@ -22,24 +22,21 @@ google_analytics: 'UA-XXXXXXXX-X'
 
 # Pagination settings
 paginate: 5                           # number of posts to show per page
-paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
+paginate_path: "/topics/page:num/"  # link scheme for articles, should be letf as is
 
 # Navigation settings
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
-  - title: Articles
-    url: /articles/
-    desc: Stuffs I write about
-  - title: Projects
-    url: /projects/
-    desc: Stuffs I like to do
-  - title: Work
-    url: /work/
-    desc: Stuffs I hate to do
+  - title: Topics
+    url: /topics/
+    desc: Selection of topics
+  - title: Submissions
+    url: /submissions/
+    desc: Submit your own links!
   - title: About
     url: /about/
-    desc: Learn about me
+    desc: Learn about us
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:
